@@ -6,13 +6,13 @@ export default function Home() {
       <main className="flex flex-col gap-8">
         <h1 className="text-2xl font-bold">
           PPR <span className="font-mono whitespace-pre">`next/image`</span> issues with{' '}
-          <span className="font-mono whitespace-pre">`preload`</span>
+          <span className="font-mono whitespace-pre">`priority`</span>
         </h1>
 
         <p>
           This reproduction app has four different pages that show how{' '}
           <span className="font-mono whitespace-pre">`next/image`</span> behaves differently when
-          using PPR and <span className="font-mono whitespace-pre">`preload`</span> depending on
+          using PPR and <span className="font-mono whitespace-pre">`priority`</span> depending on
           whether the <span className="font-mono whitespace-pre">`sizes`</span> prop is provided.
         </p>
 
